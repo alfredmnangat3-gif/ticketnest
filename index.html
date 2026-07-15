@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TicketNest — Book Movie Tickets</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="#" class="brand">TICKET<span>NEST</span></a>
+    <div class="nav-links">
+      <a href="#showing">Now Showing</a>
+      <a href="#soon">Coming Soon</a>
+      <a href="#locations">Theaters</a>
+      <a href="about.html">About</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <a href="#showing" class="nav-cta">Book Now</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-glow"></div>
+  <div class="hero-inner">
+    <span class="tag">Featured This Week</span>
+    <h1>MIDNIGHT<br><span>FREQUENCY</span></h1>
+    <p class="meta">Sci-Fi &middot; Thriller &middot; 2h 11m &middot; Rated PG-13</p>
+    <p class="synopsis">When a decoded signal starts rewriting memories across the city, a radio engineer has one night to shut it down before it reaches everyone listening.</p>
+    <div class="hero-cta">
+      <button class="btn-primary" data-book="Midnight Frequency">Book Tickets</button>
+      <a href="#showing" class="btn-ghost">View Showtimes</a>
+    </div>
+  </div>
+</section>
+
+<section class="showing" id="showing">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="tag">In Theaters</span>
+      <h2>Now Showing</h2>
+    </div>
+
+    <div class="movie-grid">
+
+      <article class="movie-card" data-poster="1">
+        <div class="poster"><span class="rating">PG-13</span></div>
+        <div class="movie-info">
+          <h3>Midnight Frequency</h3>
+          <p class="genre">Sci-Fi &middot; Thriller &middot; 2h 11m</p>
+          <button class="btn-book" data-book="Midnight Frequency">Book Tickets</button>
+        </div>
+      </article>
+
+      <article class="movie-card" data-poster="2">
+        <div class="poster"><span class="rating">PG</span></div>
+        <div class="movie-info">
+          <h3>The Last Ember</h3>
+          <p class="genre">Adventure &middot; Drama &middot; 2h 24m</p>
+          <button class="btn-book" data-book="The Last Ember">Book Tickets</button>
+        </div>
+      </article>
+
+      <article class="movie-card" data-poster="3">
+        <div class="poster"><span class="rating">R</span></div>
+        <div class="movie-info">
+          <h3>Static Bloom</h3>
+          <p class="genre">Horror &middot; Mystery &middot; 1h 45m</p>
+          <button class="btn-book" data-book="Static Bloom">Book Tickets</button>
+        </div>
+      </article>
+
+      <article class="movie-card" data-poster="4">
+        <div class="poster"><span class="rating">PG-13</span></div>
+        <div class="movie-info">
+          <h3>Iron Tide</h3>
+          <p class="genre">Action &middot; 2h 03m</p>
+          <button class="btn-book" data-book="Iron Tide">Book Tickets</button>
+        </div>
+      </article>
+
+      <article class="movie-card" data-poster="5">
+        <div class="poster"><span class="rating">PG-13</span></div>
+        <div class="movie-info">
+          <h3>Glass Horizon</h3>
+          <p class="genre">Romance &middot; Drama &middot; 1h 58m</p>
+          <button class="btn-book" data-book="Glass Horizon">Book Tickets</button>
+        </div>
+      </article>
+
+      <article class="movie-card" data-poster="6">
+        <div class="poster"><span class="rating">PG</span></div>
+        <div class="movie-info">
+          <h3>Paper Moons</h3>
+          <p class="genre">Animation &middot; Family &middot; 1h 36m</p>
+          <button class="btn-book" data-book="Paper Moons">Book Tickets</button>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="soon" id="soon">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="tag">Coming Soon</span>
+      <h2>On the Marquee</h2>
+    </div>
+    <div class="soon-strip">
+      <div class="soon-card">
+        <div class="soon-poster"></div>
+        <h4>Hollow Circuit</h4>
+        <p>Sci-Fi &middot; Aug 14</p>
+      </div>
+      <div class="soon-card">
+        <div class="soon-poster soon-2"></div>
+        <h4>Wildfire Season</h4>
+        <p>Drama &middot; Aug 21</p>
+      </div>
+      <div class="soon-card">
+        <div class="soon-poster soon-3"></div>
+        <h4>Nine Lives Down</h4>
+        <p>Action &middot; Comedy &middot; Sep 04</p>
+      </div>
+      <div class="soon-card">
+        <div class="soon-poster soon-4"></div>
+        <h4>The Quiet Hour</h4>
+        <p>Horror &middot; Sep 18</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="locations" id="locations">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="tag">Find Us</span>
+      <h2>Theater Locations</h2>
+    </div>
+    <div class="location-grid">
+      <div class="location-card">
+        <h4>Downtown Cinema</h4>
+        <p>184 Main Street</p>
+        <p>8 screens &middot; Dolby Atmos</p>
+      </div>
+      <div class="location-card">
+        <h4>Riverside Mall 12</h4>
+        <p>2200 Riverside Avenue</p>
+        <p>12 screens &middot; IMAX</p>
+      </div>
+      <div class="location-card">
+        <h4>Grand Plaza Theatre</h4>
+        <p>77 Plaza Boulevard</p>
+        <p>6 screens &middot; Recliner Seating</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <a href="#" class="brand">TICKET<span>NEST</span></a>
+  <p>&copy; 2026 TicketNest Cinemas. All rights reserved.</p>
+</footer>
+
+<!-- Booking Modal -->
+<div class="modal-overlay" id="modal-overlay">
+  <div class="modal">
+    <button class="modal-close" id="modal-close" aria-label="Close">&times;</button>
+
+    <div class="modal-step" id="step-showtime">
+      <span class="tag">Select Showtime</span>
+      <h3 id="modal-movie-title">Movie Title</h3>
+      <div class="showtime-grid" id="showtime-grid"></div>
+      <button class="btn-primary" id="to-seats" disabled>Continue to Seats</button>
+    </div>
+
+    <div class="modal-step hidden" id="step-seats">
+      <span class="tag">Select Seats</span>
+      <h3>Choose Your Seats</h3>
+      <div class="screen-label">SCREEN</div>
+      <div class="screen-curve"></div>
+      <div class="seat-map" id="seat-map"></div>
+      <div class="seat-legend">
+        <span><i class="dot available"></i> Available</span>
+        <span><i class="dot selected"></i> Selected</span>
+        <span><i class="dot taken"></i> Taken</span>
+      </div>
+      <div class="booking-summary">
+        <div><span id="seat-count">0</span> seats selected</div>
+        <div class="total">Total: $<span id="seat-total">0</span></div>
+      </div>
+      <button class="btn-primary" id="to-confirm" disabled>Confirm Booking</button>
+    </div>
+
+    <div class="modal-step hidden" id="step-confirm">
+      <div class="ticket">
+        <div class="ticket-top">
+          <span class="tag">Booking Confirmed</span>
+          <h3 id="ticket-movie">Movie Title</h3>
+          <p id="ticket-showtime">Showtime</p>
+        </div>
+        <div class="ticket-divider"></div>
+        <div class="ticket-bottom">
+          <div>
+            <span class="ticket-label">Seats</span>
+            <p id="ticket-seats">—</p>
+          </div>
+          <div>
+            <span class="ticket-label">Total Paid</span>
+            <p id="ticket-total">$0</p>
+          </div>
+        </div>
+      </div>
+      <button class="btn-ghost" id="close-ticket">Done</button>
+    </div>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
